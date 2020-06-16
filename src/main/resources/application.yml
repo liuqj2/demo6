@@ -1,0 +1,3 @@
+server:
+  port: 8889
+  servlet:    context-path: /wim #上下文路径
