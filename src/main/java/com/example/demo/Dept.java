@@ -16,4 +16,9 @@ public class Dept {
 	public void setId(String id) {
 		this.id = id;
 	}
+
+	@Override
+	public String toString() {
+		return "Dept [id=" + id + ", name=" + name + "]";
+	}
 }
