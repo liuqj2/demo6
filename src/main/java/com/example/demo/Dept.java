@@ -3,7 +3,7 @@ package com.example.demo;
 public class Dept {
 
 	private String id;
-
+	private String name;
 	public Dept(String id) {
 		super();
 		this.id = id;
