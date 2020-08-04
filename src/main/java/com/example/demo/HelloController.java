@@ -11,7 +11,7 @@ public class HelloController {
 	@RequestMapping("/")
 	public String index(HttpRequest request) {
 		HttpHeaders headers = request.getHeaders();
-		return "Greetings from Spring Bossot33333333999DsssDDDDDsDD1测试!";
+		return "Greetings from Spr2ing Bossot33333333999DsssDDDDDsDD1测试!";
 	}
 
 }
