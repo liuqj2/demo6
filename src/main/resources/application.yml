@@ -1,3 +1,16 @@
 server:
   port: 8889
   servlet:    context-path: /wim #上下文路径
+spring:  datasource:    url: jdbc:mysql://localhost/qingapp?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:    database: MYSQL
+    show-sql: true
+    hibernate:      ddl-auto: update
+      naming:        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+            
