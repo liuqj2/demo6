@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    api-1:
+      path: /workflow/getuser
+      service-id: workflow-server
+    api-2:
+      path: /workflow/list
+      service-id: workflow-server
