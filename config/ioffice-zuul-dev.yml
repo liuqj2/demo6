@@ -6,3 +6,6 @@ zuul:
     api-2:
       path: /workflow/list
       service-id: workflow-server
+    api-3:
+      path: /workflow/getuser2
+      service-id: workflow-server
